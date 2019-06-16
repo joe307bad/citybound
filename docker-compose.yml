@@ -4,5 +4,5 @@ services:
     build: .
     container_name: citybound
     ports:
-      - "127.0.0.1:1234:1234"
-      - "127.0.0.1:9999:9999"
+      - "1234:1234"
+      - "9999:9999"
